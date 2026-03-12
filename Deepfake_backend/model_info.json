@@ -1,0 +1,20 @@
+{
+  "model_type": "DeepfakeDetector",
+  "input_size": [
+    3,
+    128,
+    128
+  ],
+  "num_classes": 2,
+  "classes": [
+    "real",
+    "fake"
+  ],
+  "best_accuracy": 1.0,
+  "training_time": 153.5048532485962,
+  "device": "cuda",
+  "parameters": 4821570,
+  "dataset_size": 500,
+  "training_samples": 400,
+  "validation_samples": 100
+}
